@@ -1,0 +1,30 @@
+{
+    "status": "Optimal",
+    "parameters": {
+        "lead_time_days": 7,
+        "target_service_level_pct": 95,
+        "service_level_z": 1.645,
+        "holding_cost_per_unit_day": 0.5,
+        "ordering_cost_per_order": 25.0,
+        "stockout_penalty_per_unit": 5.0
+    },
+    "pulp_optimized_policy": {
+        "total_holding_cost": 14636.8,
+        "total_ordering_cost": 13625.0,
+        "total_stockout_cost": 55182.24,
+        "total_stockout_units": 11036.4,
+        "total_cost": 83444.04
+    },
+    "static_baseline_policy": {
+        "total_holding_cost": 63586.66,
+        "total_ordering_cost": 46175.0,
+        "total_stockout_cost": 175.41,
+        "total_stockout_units": 35.1,
+        "total_cost": 109937.07
+    },
+    "key_kpi_improvements": {
+        "stockout_reduction_pct": 15.0,
+        "holding_cost_reduction_pct": 76.98,
+        "total_cost_savings_pct": 24.1
+    }
+}

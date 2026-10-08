@@ -1,0 +1,61 @@
+{
+    "baseline_metrics": {
+        "rmse": 2.3272,
+        "mae": 1.2692,
+        "wrmsse": 0.9072
+    },
+    "lightgbm_metrics": {
+        "rmse": 2.0465,
+        "mae": 1.1802,
+        "wrmsse": 0.8734
+    },
+    "improvements": {
+        "rmse_improvement_pct": 12.06,
+        "mae_improvement_pct": 7.01,
+        "wrmsse_improvement_pct": 3.73
+    },
+    "top_features": [
+        {
+            "feature": "item_id",
+            "importance": 917
+        },
+        {
+            "feature": "lag_7",
+            "importance": 513
+        },
+        {
+            "feature": "lag_14",
+            "importance": 349
+        },
+        {
+            "feature": "week_of_year",
+            "importance": 338
+        },
+        {
+            "feature": "wday",
+            "importance": 298
+        },
+        {
+            "feature": "rolling_mean_28",
+            "importance": 272
+        },
+        {
+            "feature": "day_of_month",
+            "importance": 205
+        },
+        {
+            "feature": "month",
+            "importance": 165
+        },
+        {
+            "feature": "event_name_1",
+            "importance": 163
+        },
+        {
+            "feature": "lag_21",
+            "importance": 162
+        }
+    ],
+    "pipeline_execution_time_minutes": 1.96,
+    "total_series_processed": 600
+}
